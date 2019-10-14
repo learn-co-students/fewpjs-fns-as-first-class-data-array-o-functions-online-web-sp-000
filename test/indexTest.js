@@ -60,6 +60,7 @@ describe("index.js", () => {
 
       const executedMessages = exerciseDog("Esther", "Dalmation")
 
+
       const successMessages = [ 'Wake Esther the Dalmation',
         'Leash Esther the Dalmation',
         'Walk to the park with Esther the Dalmation',
