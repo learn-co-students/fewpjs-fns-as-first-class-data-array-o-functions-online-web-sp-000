@@ -38,8 +38,12 @@ var routine = [
 ]
 
 function exerciseDog(dogName, dogBreed) {
-    for (let i = 0; i < routine.length; i++) {
-        return routine[i](dogName, dogBreed);
-    }
-    
+    routine.map()
 }
+
+// function exerciseDog(dogName, dogBreed) {
+//     for (let i = 0; i < routine.length; i++) {
+//         return routine[i](dogName, dogBreed);
+//     }
+    
+// }
