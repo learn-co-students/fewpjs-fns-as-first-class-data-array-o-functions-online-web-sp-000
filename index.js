@@ -41,10 +41,3 @@ function exerciseDog(dogName, dogBreed) {
 }
 
 
-// function declaration
-function func(a) {
-
-}
-
-//function call
-func('hello')
