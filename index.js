@@ -39,7 +39,7 @@ var routine = [
 
 function exerciseDog(dogName, dogBreed) {
     for (let i = 0; i < routine.length; i++) {
-        routine[i](dogName, dogBreed).map;
+        return routine[i](dogName, dogBreed);
     }
     
 }
