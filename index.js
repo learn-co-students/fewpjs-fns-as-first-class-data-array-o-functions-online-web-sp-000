@@ -38,12 +38,5 @@ var routine = [
 ]
 
 function exerciseDog(dogName, dogBreed) {
-    routine.map()
+    return routine.map(fn => fn(dogName, dogBreed));
 }
-
-// function exerciseDog(dogName, dogBreed) {
-//     for (let i = 0; i < routine.length; i++) {
-//         return routine[i](dogName, dogBreed);
-//     }
-    
-// }
