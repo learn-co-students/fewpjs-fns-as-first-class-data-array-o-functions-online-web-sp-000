@@ -1,43 +1,38 @@
-function wakeDog()
+// function wakeDog(arg1, arg2)
+// {
+//     const a = arg1;
+//     const b = arg2;
+//     return `Wake ${a} the ${b}`;
+// }
+
+function wakeDog(arg1, arg2)
 {
-    const a = "Xerox";
-    const b = "Border Collie";
-    return `Wake ${a} the ${b}`;
+    return `Wake ${arg1} the ${arg2}`;
 }
 
-function leashDog()
+function leashDog(arg1, arg2)
 {
-    const a = "Boo Radley";
-    const b = "Pibble";
-    return `Leash ${a} the ${b}`;
+    return `Leash ${arg1} the ${arg2}`;
 }
 
-function walkToPark()
+function walkToPark(arg1, arg2)
 {
-    const a = "Bunny";
-    const b = "Labrador";
-    return `Walk to the park with ${a} the ${b}`;
+    return `Walk to the park with ${arg1} the ${arg2}`;
 }
 
-function throwFrisbee()
+function throwFrisbee(arg1, arg2)
 {
-    const a = "Mary J. Blige";
-    const b = "Papillon";
-    return `Throw the frisbee for ${a} the ${b}`;
+    return `Throw the frisbee for ${arg1} the ${arg2}`;
 }
 
-function walkHome()
+function walkHome(arg1, arg2)
 {
-    const a = "Santa Paws";
-    const b = "Husky";
-    return `Walk home with ${a} the ${b}`;
+    return `Walk home with ${arg1} the ${arg2}`;
 }
 
-function unleashDog()
+function unleashDog(arg1, arg2)
 {
-    const a = "Lauren";
-    const b = "Golden Retriever";
-    return `Unleash ${a} the ${b}`;
+    return `Unleash ${arg1} the ${arg2}`;
 }
 
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
