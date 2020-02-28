@@ -6,6 +6,7 @@
 
 ## Introduction
 
+
 Since functions in JavaScript are "first-class" objects, it means they can be
 treated like any other data type in JavaScript (`Number`, `String`, et al.).  A
 fun way to experience this truth is to load up an `Array` of `Functions` and
@@ -96,4 +97,3 @@ variables, or iterate over them. Instead of _merely_ having `Array`s of
 nothing short of amazing!
 
 [First Class Functions MDN](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
-
