@@ -1,5 +1,8 @@
 # JavaScript Functions as First Class Data: Array of Functions
 
+for (let i = 0; i < routine.length; i++) {
+    return routine[i](dogName, dogBreed);
+}
 ## Learning Goals
 
 - Create a JavaScript function that loops through a function `Array`
