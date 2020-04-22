@@ -1,4 +1,4 @@
-
+describe("index.js", () => {
   describe("independent functions", () => {
     it("has a function wakeDog", () => {
       const a = "Xerox"
@@ -47,6 +47,7 @@
       expect(unleashDog).to.exist
     })
     it("has an array called 'routine' that contains each activity", () => {
+      expect(routine).to.be.a('array');
       expect(routine).to.include(wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog);
     })
   })
