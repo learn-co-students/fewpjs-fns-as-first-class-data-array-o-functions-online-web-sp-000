@@ -38,7 +38,7 @@ let routine=[ wakeDog,leashDog,walkToPark, throwFrisbee,walkHome,unleashDog]
 	routine = routine.map( (play) => {
 		return play(dogName, dogBreed)
 		}
-	)
+	);
 	return routine
 }
  
