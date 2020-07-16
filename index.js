@@ -1,4 +1,4 @@
-var wakeDog = function(dogName="Byron", dogBreed="poodle") {
+var wakeDog = function(dogName, dogBreed) {
     return `Wake ${dogName} the ${dogBreed}`
 }
 
