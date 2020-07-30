@@ -33,3 +33,6 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 function exerciseDog(name, breed) {
   return routine.map(fn => fn(name, breed))
 }
+
+// The map() method creates a new array with the results of calling a function for every array element.
+// It calls the provided function once for each element in an array, in order.
