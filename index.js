@@ -26,8 +26,9 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 
 function exerciseDog(dogName, dogBreed) {
-    
+    let retArray = []
     for(let i = 0; i < routine.length; i++) {
-        console.log(routine[i](dogName, dogBreed))
+        retArray.push(routine[i](dogName, dogBreed))
     }
+    return retArray;
 }
