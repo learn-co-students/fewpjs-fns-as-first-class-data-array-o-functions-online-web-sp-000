@@ -32,9 +32,11 @@ const routine = [
 ]
 
 function exerciseDog(dogName, dogBreed) {
-    let result = [];
-    for (var i = 0; i < routine.length; i++){
-        result[i] = routine[i](dogName, dogBreed)
-    }
-    return result
+    // let result = [];
+    // for (var i = 0; i < routine.length; i++){
+    //     result[i] = routine[i](dogName, dogBreed)
+    // }
+    // return result
+
+    return routine.map(fn => fn(dogName, dogBreed))
 }
