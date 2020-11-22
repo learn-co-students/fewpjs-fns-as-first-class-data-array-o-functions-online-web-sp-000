@@ -1,6 +1,5 @@
 function wakeDog(dogName, dogBreed) {
     let s = `Wake ${dogName} the ${dogBreed}`;
-    console.log(s);
     return s;
 }
 
@@ -29,11 +28,9 @@ function unleashDog(dogName, dogBreed) {
     return s;
 }
 
-function routine(dogName, dogBreed) {
-    wakeDog(dogName, dogBreed);
-    leashDog(dogName, dogBreed);
-    walkToPark(dogName, dogBreed);
-    throwFrisbee(dogName, dogBreed);
-    walkHome(dogName, dogBreed);
-    unleashDog(dogName, dogBreed);
+let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+function exerciseDog(dogName, dogBreed) {
+    console.log('Excercising');
+    console.log(routine);
 }
+
