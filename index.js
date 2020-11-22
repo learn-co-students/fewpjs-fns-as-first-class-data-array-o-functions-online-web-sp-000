@@ -38,15 +38,10 @@ let routine = [
 ];
 
 function exerciseDog(dogName, dogBreed) {
-    console.log('Excercising');
-    console.log(routine.length);
     let listActivity = [];
     for (let i = 0; i < routine.length; i++) {
-        console.log(routine[0](dogName,dogBreed));
-        listActivity << routine[i](dogName,dogBreed);
-        console.log(listActivity);
+        listActivity.push(routine[i](dogName,dogBreed));
       }
-    console.log(listActivity);
     return listActivity;
 }
 
