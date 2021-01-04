@@ -26,8 +26,8 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 
 function exerciseDog(dogName, dogBreed){
-    var new_array = []
-    routine.forEach(task => console.log(task(dogName, dogBreed)));
-    return routine; 
+    
+     let excercise = routine.map(task => task(dogName, dogBreed));
+     return excercise; 
 }
 
