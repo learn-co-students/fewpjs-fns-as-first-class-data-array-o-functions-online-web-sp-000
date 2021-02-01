@@ -13,7 +13,7 @@ function walkToPark(dogName, dogBreed){
   return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 
-function walkToPark(dogName, dogBreed){
+function throwFrisbee(dogName, dogBreed){
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
@@ -38,7 +38,6 @@ const routine = [
 ];
 
 function exerciseDog(dogName, dogBreed){
-  array = routine.map(fcn => fcn(dogName, dogBreed))
+  let array = routine.map(fcn => fcn(dogName, dogBreed))
   return array
-  }
 }
