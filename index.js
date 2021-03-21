@@ -41,4 +41,14 @@ function unleashDog(dogName, dogBreed){
     return msg
 }
 
-const routine = [wakeDog(name, breed), leashDog(name, breed), walkToPark(name, breed), throwFrisbee(name, breed), walkHome(name, breed), unleashDog(name, breed)];
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+
+function exerciseDog(name, breed){
+    const r_array = []
+    let i = 0
+    while (i < routine.length){
+        r_array.push(routine[i](name, breed));
+        i = i + 1;
+    } 
+    return r_array
+}
