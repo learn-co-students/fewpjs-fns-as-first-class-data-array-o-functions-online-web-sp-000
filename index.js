@@ -30,12 +30,7 @@ function unleashDog(dogName, dogBreed) {
 
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
-function exerciseDog(dogName, dogBreed) {
-    let results_array = [];
+function exerciseDog(dogName, dogBreed) { 
+    return routine.map(element => element(dogName, dogBreed));
+     }    //like map in ruby but different syntax and the above is saying that for each element in routine, you'll do element(dogName, dogBreed) and then all of those return values will be put into a new returned array. 
 
-    for (let i = 0; i < routine.length; i++) { 
-       results_array << routine[i](dogName, dogBreed);
-       console.log(routine[i]);
-       return results_array;
-    }
-}
