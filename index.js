@@ -38,10 +38,14 @@ function unleashDog(dogName, dogBreed){
   return string
 }
 
-function exerciseDog(dogName, dogBreed){
-  for (let i = 0; i < routine.length; i++){
-    return routine[i](dogName, dogBreed)
+function exerciseDog(dogName, dogBreed) {
+  let returnArray = [];
+  for (let i = 0; i < routine.length; i++) {
+    console.log(routine[i](dogName, dogBreed));
+    let newItem = routine[i](dogName, dogBreed);
+    returnArray.push(newItem);
   }
+  return returnArray;
 }
 
 
