@@ -40,6 +40,13 @@ function unleashDog(dogName, dogBreed){
 
 function exerciseDog(dogName, dogBreed){
   for (let i = 0; i < routine.length; i++){
-    routine[i](dogName, dogBreed)
+    return routine[i](dogName, dogBreed)
   }
 }
+
+
+
+
+
+
+
